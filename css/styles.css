@@ -1,0 +1,29 @@
+body {
+    background-image: url(../images/background.jpg);   
+    font-family:helvetica, arial;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1, h2, h3 {
+    color: #C70039;
+}
+
+#wrapper{
+    width: 70%;
+    margin:0 auto;
+    background-color:#ccc;
+    opacity: 0.9;
+    padding:30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    float:right;
+    width: 250px;
+    border:8px solid white;
+    margin: 0 0 0 5px;
+}
